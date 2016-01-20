@@ -1,0 +1,36 @@
+{
+    "MyObject": {
+        "id": "MyObject",
+        "type": "object",
+        "properties": {
+            "subA": {
+                "$ref": "MyObject/MySubObject"
+            },
+            "subB": {
+                "$ref": "MyObject/MySubObject"
+            }
+        },
+        "required": [
+            "subA",
+            "subB"
+        ],
+        "additionalProperties": false
+    },
+    "MySubObject": {
+        "id": "MySubObject",
+        "type": "object",
+        "properties": {
+            "propA": {
+                "type": "number"
+            },
+            "propB": {
+                "type": "number"
+            }
+        },
+        "required": [
+            "propA",
+            "propB"
+        ],
+        "additionalProperties": false
+    }
+}

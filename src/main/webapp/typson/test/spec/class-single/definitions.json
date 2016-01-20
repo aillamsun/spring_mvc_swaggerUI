@@ -1,0 +1,19 @@
+{
+    "MyObject": {
+        "additionalProperties": false,
+        "id": "MyObject",
+        "type": "object",
+        "properties": {
+            "propA": {
+                "type": "number"
+            },
+            "propB": {
+                "type": "number"
+            }
+        },
+        "required": [
+            "propA",
+            "propB"
+        ]
+    }
+}

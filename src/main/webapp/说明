@@ -1,0 +1,4 @@
+1,需要修改doc/dist/index.html 里面的ip地址
+2,然后启动之后直接访问ip:port/doc/dist/index.html
+
+例如：http://192.168.3.200:16518/doc/dist/index.html
